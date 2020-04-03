@@ -10,35 +10,6 @@ export default () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
 
-
-  // componentDidMount()
-  // {
-  //   this.handleSubmit('');
-  // }
-
-  // onVideoSelect = (video) =>
-  // {
-  //   this.setState({selectedVideo: video});
-  // }
-
-  // handleSubmit = async (searchTerm) =>
-  // {
-  //   const response = await youtube.get('search',
-  //   {
-  //     params:{
-  //       part: 'snippet',
-  //       maxResults: 5,
-  //       key: 'AIzaSyBgwaFC5DiWrNs8ptHNscTIUDYVpPYY938',
-  //       q: searchTerm
-  //     }
-  //   }
-  //   );
-  //   this.setState({videos: response.data.items, selectedVideo: response.data.items[0] });
-  //  // console.log(response);
-  //   console.log(response.data.items)
-  //   console.log(response.data.items[0]);
-
-  // } 
   async function handleSubmit(searchTerm) {
     const { data: { items: videos } } = await youtube.get("search", {
       params: {
