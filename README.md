@@ -1,1 +1,1 @@
-In this project user can search any video loke you tube and there is some video are displayed on thre page and user can click any one of the video to watch it. In this project i am using You-tube api and made in ReactJs.
+In this project user can search any video like you tube and there is some video are displayed on thre page and user can click any one of the video to watch it. In this project i am using You-tube api and made in ReactJs.
